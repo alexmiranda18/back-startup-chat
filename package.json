@@ -6,7 +6,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "sucrase-node src/server.js",
     "dev": "sucrase-node src/server.js"
   },
   "keywords": [],
